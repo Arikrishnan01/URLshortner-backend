@@ -28,6 +28,9 @@ require("./connect");
  */
 app.use(express.json());
 
+app.get('/',(req, res) => {
+    res.send("Welcome to the url hsortner ")
+})
 /**
  * SERVER USING ROUTER 
  */
